@@ -161,11 +161,11 @@ function main() {
     var ulc = new Color(0,255,255,125); // upper left corner color is cyan
     var urc = new Color(255,0,255,255); // upper right corner color is magenta
     var llc = new Color(255,255,0,255); // lower left corner color is yellow
-    var lrc = new Color(255,195,205,255); // lower right corner color is pink
+    var lrc = new Color(255,192,203,255); // lower right corner color is pink
     var ulx = 50, uly = 50; // upper left corner position
     var urx = 200, ury = 50; // upper right corner position
     var llx = 50, lly = 150; // lower left corner position
-    var lrx = 200, lry = 150; // lower right corner position
+    var lrx = 50, lry = 150; // lower right corner position
     
     // set up the vertical interpolation
     var lc = ulc.clone();  // left color
